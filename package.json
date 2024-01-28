@@ -1,0 +1,17 @@
+{
+  "name": "cypress-ui-testing",
+  "version": "1.0.0",
+  "description": "cypres ui testing",
+  "main": "index.ts",
+  "scripts": {
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
